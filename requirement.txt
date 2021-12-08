@@ -1,0 +1,11 @@
+﻿six
+numpy
+scipy
+torch >= 0.4.0
+tensorboardX
+matplotlib
+libavformat-dev libavdevice-dev
+av == 6.2.0
+
+
+
