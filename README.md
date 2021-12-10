@@ -9,6 +9,8 @@ Datasets: UCF-101, HMDB51, OOPS
 
 #FallAction Dataset
 
+Download FallAction Dataset from site: https://figshare.com/articles/dataset/FallAction_dataset_zip/17157845
+
 Download the HMDB51 dataset from:
 
 Download videos and train/test splits: https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/.
