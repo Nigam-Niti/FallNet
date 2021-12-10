@@ -7,6 +7,29 @@ Models: I3D
 
 Datasets: UCF-101, HMDB51, OOPS 
 
+#FallAction Dataset
+
+Download the dataset from:
+HMDB51
+Download videos and train/test splits: https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/.
+
+Convert from avi to jpg files using utils/video_jpg_ucf101_hmdb51.py
+
+python utils/video_jpg_ucf101_hmdb51.py avi_video_directory jpg_video_directory
+
+Generate n_frames files using utils/n_frames_ucf101_hmdb51.py
+
+python utils/n_frames_ucf101_hmdb51.py jpg_video_directory
+
+Generate annotation file in json format similar to ActivityNet using utils/ucf101_json.py
+
+annotation_dir_path includes classInd.txt, trainlist0{1, 2, 3}.txt, testlist0{1, 2, 3}.txt
+
+python utils/ucf101_json.py annotation_dir_path
+
+
+
+
 # Installation
 Clone and install:
 
