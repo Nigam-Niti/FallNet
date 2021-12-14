@@ -16,6 +16,10 @@ import numpy as np
 import time
 import av
 import random
+import train
+import test
+import SupervisionNet
+import i3d
 print(f"PyAV version -- {av.__version__}")
 
 SEED = 491
