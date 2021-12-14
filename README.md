@@ -11,6 +11,7 @@ Datasets: UCF-101, HMDB51, OOPS
 
 Download FallAction Dataset from site: https://figshare.com/articles/dataset/FallAction_dataset_zip/17157845
 
+
 Download the HMDB51 dataset from:
 
 Download videos and train/test splits: https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/.
@@ -41,6 +42,11 @@ git clone https://github.com/Nigam-Niti/FallNet.git
 cd FallNet 
 
 pip install -r requirements.txt 
+
+OR
+
+directly go to colab link https://colab.research.google.com/drive/1Wpn07PMyokfecEDfeXkCHnxPYTtz0Gh_?usp=sharing
+
 
 # Requirements 
     • Python 2.7 or 3.5+ (developed with 3.7)
